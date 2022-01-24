@@ -34,21 +34,21 @@ namespace sales_application
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btn_1 = new System.Windows.Forms.Button();
-            this.panelForButton = new System.Windows.Forms.Panel();
+            this.panelForButtonSection_1 = new System.Windows.Forms.Panel();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
             this.btn_4 = new System.Windows.Forms.Button();
             this.btn_5 = new System.Windows.Forms.Button();
             this.btn_6 = new System.Windows.Forms.Button();
-            this.panelFotButtonSection_2 = new System.Windows.Forms.Panel();
+            this.panelForButtonSection_2 = new System.Windows.Forms.Panel();
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
             this.btn_9 = new System.Windows.Forms.Button();
             this.btn_10 = new System.Windows.Forms.Button();
             this.btn_11 = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
-            this.panelForButton.SuspendLayout();
-            this.panelFotButtonSection_2.SuspendLayout();
+            this.panelForButtonSection_1.SuspendLayout();
+            this.panelForButtonSection_2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
@@ -56,9 +56,9 @@ namespace sales_application
             this.panelMain.AutoScroll = true;
             this.panelMain.BackColor = System.Drawing.Color.Silver;
             this.panelMain.Controls.Add(this.btn_11);
-            this.panelMain.Controls.Add(this.panelFotButtonSection_2);
+            this.panelMain.Controls.Add(this.panelForButtonSection_2);
             this.panelMain.Controls.Add(this.btn_6);
-            this.panelMain.Controls.Add(this.panelForButton);
+            this.panelMain.Controls.Add(this.panelForButtonSection_1);
             this.panelMain.Controls.Add(this.btn_1);
             this.panelMain.Controls.Add(this.panelLogo);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Left;
@@ -104,18 +104,19 @@ namespace sales_application
             this.btn_1.TabIndex = 1;
             this.btn_1.Text = "Przycisk_1";
             this.btn_1.UseVisualStyleBackColor = false;
+            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
             // 
-            // panelForButton
+            // panelForButtonSection_1
             // 
-            this.panelForButton.Controls.Add(this.btn_5);
-            this.panelForButton.Controls.Add(this.btn_4);
-            this.panelForButton.Controls.Add(this.btn_3);
-            this.panelForButton.Controls.Add(this.btn_2);
-            this.panelForButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelForButton.Location = new System.Drawing.Point(0, 134);
-            this.panelForButton.Name = "panelForButton";
-            this.panelForButton.Size = new System.Drawing.Size(153, 94);
-            this.panelForButton.TabIndex = 2;
+            this.panelForButtonSection_1.Controls.Add(this.btn_5);
+            this.panelForButtonSection_1.Controls.Add(this.btn_4);
+            this.panelForButtonSection_1.Controls.Add(this.btn_3);
+            this.panelForButtonSection_1.Controls.Add(this.btn_2);
+            this.panelForButtonSection_1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelForButtonSection_1.Location = new System.Drawing.Point(0, 134);
+            this.panelForButtonSection_1.Name = "panelForButtonSection_1";
+            this.panelForButtonSection_1.Size = new System.Drawing.Size(153, 94);
+            this.panelForButtonSection_1.TabIndex = 2;
             // 
             // btn_2
             // 
@@ -126,6 +127,7 @@ namespace sales_application
             this.btn_2.TabIndex = 0;
             this.btn_2.Text = "Przycisk_2";
             this.btn_2.UseVisualStyleBackColor = true;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             // 
             // btn_3
             // 
@@ -136,6 +138,7 @@ namespace sales_application
             this.btn_3.TabIndex = 1;
             this.btn_3.Text = "Przycisk_3";
             this.btn_3.UseVisualStyleBackColor = true;
+            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
             // 
             // btn_4
             // 
@@ -146,6 +149,7 @@ namespace sales_application
             this.btn_4.TabIndex = 2;
             this.btn_4.Text = "Przycisk_4";
             this.btn_4.UseVisualStyleBackColor = true;
+            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
             // 
             // btn_5
             // 
@@ -156,6 +160,7 @@ namespace sales_application
             this.btn_5.TabIndex = 3;
             this.btn_5.Text = "Przycisk_5";
             this.btn_5.UseVisualStyleBackColor = true;
+            this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
             // 
             // btn_6
             // 
@@ -167,18 +172,19 @@ namespace sales_application
             this.btn_6.TabIndex = 3;
             this.btn_6.Text = "Przycisk_6";
             this.btn_6.UseVisualStyleBackColor = false;
+            this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
             // 
-            // panelFotButtonSection_2
+            // panelForButtonSection_2
             // 
-            this.panelFotButtonSection_2.Controls.Add(this.btn_10);
-            this.panelFotButtonSection_2.Controls.Add(this.btn_9);
-            this.panelFotButtonSection_2.Controls.Add(this.btn_8);
-            this.panelFotButtonSection_2.Controls.Add(this.btn_7);
-            this.panelFotButtonSection_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFotButtonSection_2.Location = new System.Drawing.Point(0, 258);
-            this.panelFotButtonSection_2.Name = "panelFotButtonSection_2";
-            this.panelFotButtonSection_2.Size = new System.Drawing.Size(153, 96);
-            this.panelFotButtonSection_2.TabIndex = 4;
+            this.panelForButtonSection_2.Controls.Add(this.btn_10);
+            this.panelForButtonSection_2.Controls.Add(this.btn_9);
+            this.panelForButtonSection_2.Controls.Add(this.btn_8);
+            this.panelForButtonSection_2.Controls.Add(this.btn_7);
+            this.panelForButtonSection_2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelForButtonSection_2.Location = new System.Drawing.Point(0, 258);
+            this.panelForButtonSection_2.Name = "panelForButtonSection_2";
+            this.panelForButtonSection_2.Size = new System.Drawing.Size(153, 96);
+            this.panelForButtonSection_2.TabIndex = 4;
             // 
             // btn_7
             // 
@@ -189,6 +195,7 @@ namespace sales_application
             this.btn_7.TabIndex = 0;
             this.btn_7.Text = "Przycisk_7";
             this.btn_7.UseVisualStyleBackColor = true;
+            this.btn_7.Click += new System.EventHandler(this.btn_7_Click);
             // 
             // btn_8
             // 
@@ -199,6 +206,7 @@ namespace sales_application
             this.btn_8.TabIndex = 1;
             this.btn_8.Text = "Przycisk_8";
             this.btn_8.UseVisualStyleBackColor = true;
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             // 
             // btn_9
             // 
@@ -209,6 +217,7 @@ namespace sales_application
             this.btn_9.TabIndex = 2;
             this.btn_9.Text = "Przycisk_9";
             this.btn_9.UseVisualStyleBackColor = true;
+            this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
             // 
             // btn_10
             // 
@@ -219,6 +228,7 @@ namespace sales_application
             this.btn_10.TabIndex = 3;
             this.btn_10.Text = "Przycisk_10";
             this.btn_10.UseVisualStyleBackColor = true;
+            this.btn_10.Click += new System.EventHandler(this.btn_10_Click);
             // 
             // btn_11
             // 
@@ -230,6 +240,7 @@ namespace sales_application
             this.btn_11.TabIndex = 5;
             this.btn_11.Text = "Przycisk_11";
             this.btn_11.UseVisualStyleBackColor = false;
+            this.btn_11.Click += new System.EventHandler(this.btn_11_Click);
             // 
             // Form1
             // 
@@ -243,8 +254,8 @@ namespace sales_application
             this.Name = "Form1";
             this.Text = "Sales App";
             this.panelMain.ResumeLayout(false);
-            this.panelForButton.ResumeLayout(false);
-            this.panelFotButtonSection_2.ResumeLayout(false);
+            this.panelForButtonSection_1.ResumeLayout(false);
+            this.panelForButtonSection_2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -256,13 +267,13 @@ namespace sales_application
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button btn_1;
-        private System.Windows.Forms.Panel panelForButton;
+        private System.Windows.Forms.Panel panelForButtonSection_1;
         private System.Windows.Forms.Button btn_5;
         private System.Windows.Forms.Button btn_4;
         private System.Windows.Forms.Button btn_3;
         private System.Windows.Forms.Button btn_2;
         private System.Windows.Forms.Button btn_11;
-        private System.Windows.Forms.Panel panelFotButtonSection_2;
+        private System.Windows.Forms.Panel panelForButtonSection_2;
         private System.Windows.Forms.Button btn_10;
         private System.Windows.Forms.Button btn_9;
         private System.Windows.Forms.Button btn_8;

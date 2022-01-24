@@ -17,6 +17,32 @@ namespace sales_application
         public Form1()
         {
             InitializeComponent();
+            customizeDesign();
+        }
+
+        private void customizeDesign()
+        {
+            panelForButtonSection_1.Visible = false;
+            panelForButtonSection_2.Visible = false;
+        }
+
+        private void hideSubMenuButtonSection()
+        {
+            if (panelForButtonSection_1.Visible = true)
+                panelForButtonSection_1.Visible = false;
+            if (panelForButtonSection_2.Visible = true)
+                panelForButtonSection_2.Visible = false;
+        }
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenuButtonSection();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
         }
 
         private void OpenChildForm(Form childForm)
@@ -34,6 +60,61 @@ namespace sales_application
             panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelForButtonSection_1);
+        }
+
+        private void btn_6_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelForButtonSection_2);
+        }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_11_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_3_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_4_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_5_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_7_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_8_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_9_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
+        private void btn_10_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
         }
     }
 }
