@@ -32,11 +32,14 @@ namespace sales_application
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelHead = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Silver;
+            this.panelMain.Controls.Add(this.panelLogo);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Name = "panelMain";
@@ -61,6 +64,15 @@ namespace sales_application
             this.panelDesktop.Size = new System.Drawing.Size(931, 497);
             this.panelDesktop.TabIndex = 2;
             // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.DarkRed;
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(153, 100);
+            this.panelLogo.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -71,6 +83,7 @@ namespace sales_application
             this.Controls.Add(this.panelMain);
             this.Name = "Form1";
             this.Text = "Sales App";
+            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -80,6 +93,7 @@ namespace sales_application
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelHead;
         private System.Windows.Forms.Panel panelDesktop;
+        private System.Windows.Forms.Panel panelLogo;
     }
 }
 
