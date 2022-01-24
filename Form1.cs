@@ -61,23 +61,12 @@ namespace sales_application
             childForm.BringToFront();
             childForm.Show();
         }
-
+        #region
         private void btn_1_Click(object sender, EventArgs e)
         {
             showSubMenu(panelForButtonSection_1);
         }
-
-        private void btn_6_Click(object sender, EventArgs e)
-        {
-            showSubMenu(panelForButtonSection_2);
-        }
-
         private void btn_2_Click(object sender, EventArgs e)
-        {
-            hideSubMenuButtonSection();
-        }
-
-        private void btn_11_Click(object sender, EventArgs e)
         {
             hideSubMenuButtonSection();
         }
@@ -95,6 +84,13 @@ namespace sales_application
         private void btn_5_Click(object sender, EventArgs e)
         {
             hideSubMenuButtonSection();
+        }
+        #endregion
+
+        #region  
+        private void btn_6_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelForButtonSection_2);
         }
 
         private void btn_7_Click(object sender, EventArgs e)
@@ -116,5 +112,13 @@ namespace sales_application
         {
             hideSubMenuButtonSection();
         }
+
+#endregion
+
+        private void btn_11_Click(object sender, EventArgs e)
+        {
+            hideSubMenuButtonSection();
+        }
+
     }
 }
