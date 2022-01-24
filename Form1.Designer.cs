@@ -95,13 +95,14 @@ namespace sales_application
             // 
             // btn_1
             // 
+            this.btn_1.BackColor = System.Drawing.Color.DarkGray;
             this.btn_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_1.Location = new System.Drawing.Point(0, 100);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(153, 34);
             this.btn_1.TabIndex = 1;
             this.btn_1.Text = "Przycisk_1";
-            this.btn_1.UseVisualStyleBackColor = true;
+            this.btn_1.UseVisualStyleBackColor = false;
             // 
             // panelForButton
             // 
@@ -157,13 +158,14 @@ namespace sales_application
             // 
             // btn_6
             // 
+            this.btn_6.BackColor = System.Drawing.Color.DarkGray;
             this.btn_6.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_6.Location = new System.Drawing.Point(0, 228);
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(153, 30);
             this.btn_6.TabIndex = 3;
             this.btn_6.Text = "Przycisk_6";
-            this.btn_6.UseVisualStyleBackColor = true;
+            this.btn_6.UseVisualStyleBackColor = false;
             // 
             // panelFotButtonSection_2
             // 
@@ -219,13 +221,14 @@ namespace sales_application
             // 
             // btn_11
             // 
+            this.btn_11.BackColor = System.Drawing.Color.DarkGray;
             this.btn_11.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_11.Location = new System.Drawing.Point(0, 354);
             this.btn_11.Name = "btn_11";
-            this.btn_11.Size = new System.Drawing.Size(153, 23);
+            this.btn_11.Size = new System.Drawing.Size(153, 29);
             this.btn_11.TabIndex = 5;
             this.btn_11.Text = "Przycisk_11";
-            this.btn_11.UseVisualStyleBackColor = true;
+            this.btn_11.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
