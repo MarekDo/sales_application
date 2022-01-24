@@ -31,6 +31,7 @@ namespace sales_application
         {
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelHead = new System.Windows.Forms.Panel();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // panelMain
@@ -51,11 +52,21 @@ namespace sales_application
             this.panelHead.Size = new System.Drawing.Size(931, 64);
             this.panelHead.TabIndex = 1;
             // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(153, 64);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(931, 497);
+            this.panelDesktop.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 561);
+            this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelHead);
             this.Controls.Add(this.panelMain);
             this.Name = "Form1";
@@ -68,6 +79,7 @@ namespace sales_application
 
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelHead;
+        private System.Windows.Forms.Panel panelDesktop;
     }
 }
 
