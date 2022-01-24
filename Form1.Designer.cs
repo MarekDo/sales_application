@@ -53,6 +53,7 @@ namespace sales_application
             // 
             // panelMain
             // 
+            this.panelMain.AutoScroll = true;
             this.panelMain.BackColor = System.Drawing.Color.Silver;
             this.panelMain.Controls.Add(this.btn_11);
             this.panelMain.Controls.Add(this.panelFotButtonSection_2);
@@ -234,6 +235,7 @@ namespace sales_application
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1084, 561);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelHead);
