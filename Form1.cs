@@ -13,7 +13,7 @@ namespace sales_application
     public partial class Form1 : Form
     {
 
-        private Form currentChildForm;
+        private Form currentChildForm = null;
         public Form1()
         {
             InitializeComponent();
@@ -45,6 +45,7 @@ namespace sales_application
                 subMenu.Visible = false;
         }
 
+        
         private void OpenChildForm(Form childForm)
         {
             if (currentChildForm != null)
@@ -61,13 +62,14 @@ namespace sales_application
             childForm.BringToFront();
             childForm.Show();
         }
-        #region
+        #region FirstButton
         private void btn_1_Click(object sender, EventArgs e)
         {
             showSubMenu(panelForButtonSection_1);
         }
         private void btn_2_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new Form2());
             hideSubMenuButtonSection();
         }
 
@@ -87,7 +89,7 @@ namespace sales_application
         }
         #endregion
 
-        #region  
+        #region SixButton
         private void btn_6_Click(object sender, EventArgs e)
         {
             showSubMenu(panelForButtonSection_2);
