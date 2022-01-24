@@ -39,13 +39,24 @@ namespace sales_application
             this.btn_3 = new System.Windows.Forms.Button();
             this.btn_4 = new System.Windows.Forms.Button();
             this.btn_5 = new System.Windows.Forms.Button();
+            this.btn_6 = new System.Windows.Forms.Button();
+            this.panelFotButtonSection_2 = new System.Windows.Forms.Panel();
+            this.btn_7 = new System.Windows.Forms.Button();
+            this.btn_8 = new System.Windows.Forms.Button();
+            this.btn_9 = new System.Windows.Forms.Button();
+            this.btn_10 = new System.Windows.Forms.Button();
+            this.btn_11 = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
             this.panelForButton.SuspendLayout();
+            this.panelFotButtonSection_2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Silver;
+            this.panelMain.Controls.Add(this.btn_11);
+            this.panelMain.Controls.Add(this.panelFotButtonSection_2);
+            this.panelMain.Controls.Add(this.btn_6);
             this.panelMain.Controls.Add(this.panelForButton);
             this.panelMain.Controls.Add(this.btn_1);
             this.panelMain.Controls.Add(this.panelLogo);
@@ -144,6 +155,78 @@ namespace sales_application
             this.btn_5.Text = "Przycisk_5";
             this.btn_5.UseVisualStyleBackColor = true;
             // 
+            // btn_6
+            // 
+            this.btn_6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_6.Location = new System.Drawing.Point(0, 228);
+            this.btn_6.Name = "btn_6";
+            this.btn_6.Size = new System.Drawing.Size(153, 30);
+            this.btn_6.TabIndex = 3;
+            this.btn_6.Text = "Przycisk_6";
+            this.btn_6.UseVisualStyleBackColor = true;
+            // 
+            // panelFotButtonSection_2
+            // 
+            this.panelFotButtonSection_2.Controls.Add(this.btn_10);
+            this.panelFotButtonSection_2.Controls.Add(this.btn_9);
+            this.panelFotButtonSection_2.Controls.Add(this.btn_8);
+            this.panelFotButtonSection_2.Controls.Add(this.btn_7);
+            this.panelFotButtonSection_2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelFotButtonSection_2.Location = new System.Drawing.Point(0, 258);
+            this.panelFotButtonSection_2.Name = "panelFotButtonSection_2";
+            this.panelFotButtonSection_2.Size = new System.Drawing.Size(153, 96);
+            this.panelFotButtonSection_2.TabIndex = 4;
+            // 
+            // btn_7
+            // 
+            this.btn_7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_7.Location = new System.Drawing.Point(0, 0);
+            this.btn_7.Name = "btn_7";
+            this.btn_7.Size = new System.Drawing.Size(153, 23);
+            this.btn_7.TabIndex = 0;
+            this.btn_7.Text = "Przycisk_7";
+            this.btn_7.UseVisualStyleBackColor = true;
+            // 
+            // btn_8
+            // 
+            this.btn_8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_8.Location = new System.Drawing.Point(0, 23);
+            this.btn_8.Name = "btn_8";
+            this.btn_8.Size = new System.Drawing.Size(153, 23);
+            this.btn_8.TabIndex = 1;
+            this.btn_8.Text = "Przycisk_8";
+            this.btn_8.UseVisualStyleBackColor = true;
+            // 
+            // btn_9
+            // 
+            this.btn_9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_9.Location = new System.Drawing.Point(0, 46);
+            this.btn_9.Name = "btn_9";
+            this.btn_9.Size = new System.Drawing.Size(153, 23);
+            this.btn_9.TabIndex = 2;
+            this.btn_9.Text = "Przycisk_9";
+            this.btn_9.UseVisualStyleBackColor = true;
+            // 
+            // btn_10
+            // 
+            this.btn_10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_10.Location = new System.Drawing.Point(0, 69);
+            this.btn_10.Name = "btn_10";
+            this.btn_10.Size = new System.Drawing.Size(153, 23);
+            this.btn_10.TabIndex = 3;
+            this.btn_10.Text = "Przycisk_10";
+            this.btn_10.UseVisualStyleBackColor = true;
+            // 
+            // btn_11
+            // 
+            this.btn_11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_11.Location = new System.Drawing.Point(0, 354);
+            this.btn_11.Name = "btn_11";
+            this.btn_11.Size = new System.Drawing.Size(153, 23);
+            this.btn_11.TabIndex = 5;
+            this.btn_11.Text = "Przycisk_11";
+            this.btn_11.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +239,7 @@ namespace sales_application
             this.Text = "Sales App";
             this.panelMain.ResumeLayout(false);
             this.panelForButton.ResumeLayout(false);
+            this.panelFotButtonSection_2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -172,6 +256,13 @@ namespace sales_application
         private System.Windows.Forms.Button btn_4;
         private System.Windows.Forms.Button btn_3;
         private System.Windows.Forms.Button btn_2;
+        private System.Windows.Forms.Button btn_11;
+        private System.Windows.Forms.Panel panelFotButtonSection_2;
+        private System.Windows.Forms.Button btn_10;
+        private System.Windows.Forms.Button btn_9;
+        private System.Windows.Forms.Button btn_8;
+        private System.Windows.Forms.Button btn_7;
+        private System.Windows.Forms.Button btn_6;
     }
 }
 
