@@ -33,12 +33,14 @@ namespace sales_application
             this.panelHead = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.btn_1 = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Silver;
+            this.panelMain.Controls.Add(this.btn_1);
             this.panelMain.Controls.Add(this.panelLogo);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -73,6 +75,16 @@ namespace sales_application
             this.panelLogo.Size = new System.Drawing.Size(153, 100);
             this.panelLogo.TabIndex = 0;
             // 
+            // btn_1
+            // 
+            this.btn_1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_1.Location = new System.Drawing.Point(0, 100);
+            this.btn_1.Name = "btn_1";
+            this.btn_1.Size = new System.Drawing.Size(153, 34);
+            this.btn_1.TabIndex = 1;
+            this.btn_1.Text = "Przycisk_1";
+            this.btn_1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -94,6 +106,7 @@ namespace sales_application
         private System.Windows.Forms.Panel panelHead;
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Panel panelLogo;
+        private System.Windows.Forms.Button btn_1;
     }
 }
 
