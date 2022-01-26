@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sales_application.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -75,6 +76,7 @@ namespace sales_application
 
         private void btn_3_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new Form3());
             hideSubMenuButtonSection();
         }
 

@@ -24,7 +24,7 @@ namespace sales_application
         {
             sqlConnection.Open();
             DataTable dt = new DataTable();
-            sqlAdapter = new SqlDataAdapter("select * from tbl_Record", sqlConnection);
+            sqlAdapter = new SqlDataAdapter("select * from TypeOfDoor", sqlConnection);
             sqlAdapter.Fill(dt);
             dataGridView1.DataSource = dt;
             sqlConnection.Close();
